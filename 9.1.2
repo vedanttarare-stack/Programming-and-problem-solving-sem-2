@@ -1,0 +1,11 @@
+st=input()
+imp=len(st)
+flag=True
+for i in range(imp//2):
+	if st[i]!=st[imp-1-i]:
+		flag=False
+if flag:
+	print("Palindrome\n")
+else:
+	print("Not a Palindrome\n")
+
